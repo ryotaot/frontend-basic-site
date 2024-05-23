@@ -33,6 +33,7 @@ img {
 }
 
 .header {
+  height: 80px;
   background-color: var(--color-background-black);
   display: flex;
   justify-content: center;
