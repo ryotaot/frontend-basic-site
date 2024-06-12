@@ -189,6 +189,7 @@ section {
   gap: 10px;
 }
 .container {
+  width: 100%;
   padding: 0 40px;
   max-width: 880px;
   display: flex;
@@ -254,17 +255,23 @@ section {
 
 @media (max-width: 750px) {
   .courses {
-    padding: 40px 0;
+    padding: 40px 20px;
   }
 
   section {
-    padding: 40px 0;
+    padding: 40px 20px;
   }
   .course-block {
+    height: auto;
+    display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
   .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 0 20px;
   }
 
@@ -273,21 +280,18 @@ section {
   }
 
   .section-body {
+    height: 100%;
     font-size: 12px;
   }
 
   .big-button {
     height: 40px;
-    padding: 0 20px;
+    padding: 10px 20px;
   }
 
   .big-button-label {
+    width: 600px;
     font-size: 14px;
-  }
-
-  .big-button-icon {
-    width: 30px;
-    height: 30px;
   }
 }
 
