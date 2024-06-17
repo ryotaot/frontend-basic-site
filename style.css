@@ -413,7 +413,7 @@ section {
 
 .course-block-body {
   background: var(--color-accent-yellow);
-  padding: 10px 40px;
+  padding: 20px;
   gap: 10px;
   display: flex;
   flex-direction: column;
